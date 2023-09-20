@@ -1,0 +1,28 @@
+
+Coger con el cuenta gotas los colores de la página
+Usar cuenta gotas para coger los colores(en chrome):
+ https://chrome.google.com/webstore/detail/colorpick-eyedropper/ohcpnigalekghcmgcdcenkpelffpdolg
+root{
+    —-primary: 
+    —secondary 
+    — tertiary 
+    — highlight
+}
+
+
+.container {
+    color:var(--secondary);
+    margin: 0 auto;
+    max-width: 1000px;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100px 50px 200px 1fr 100px;
+    grid-template-areas: 
+    "header header header"
+    "nav nav nav"
+    "section section section"
+    "aside aside aside"
+    "footer footer footer";
+
+}
